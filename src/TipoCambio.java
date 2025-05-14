@@ -1,4 +1,1 @@
-package PACKAGE_NAME;
-
-public record TipoCambio() {
-}
+public record TipoCambio(String monedaDestino, double valor) {}
